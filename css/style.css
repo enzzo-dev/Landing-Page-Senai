@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.topo {
+    width: 100%;
+    height: 60px;   
+    background-color: #f9003d;
+}
+
+.topo  nav{
+   display: flex;
+   justify-content: flex-end; /*Posiciona os elementos no fim do container*/
+   padding-top: 20px;
+   padding-right: 60px;
+}
+
+.topo nav ul{
+    display: flex;
+    width: 500px;
+    list-style-type: none;
+    justify-content: space-between; /*espaçamento entre os elemnetos de forma igualitária com base no tamanho do container*/
+}
+
+.topo nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Tomorrow', sans-serif;
+    padding: 15px 10px;
+    padding-top: 24px;
+}
+
+nav a:hover{
+    transition: 0.2s;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px white;
+    background-color: #c20232;
+}
+
+.topo nav  ul  li{
+    align-items: center;
+    border: none;
+}
+
+.banner {
+    width: 100%;
+    height: 740px;
+    background-image: url('../images/imagem-fundo-banner.jpg');
+    background-size: cover;
+    background-position: bottom;
+} 
+
+.dev{
+    width: 600px;
+    height: 600px;
+}
+
+.dev h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'Tomorrow' , sans-serif;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.dev p{
+    padding-top: 40px;
+    padding-left: 100px;
+    color: rgb(255, 0, 76);
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'Tomorrow' ,  sans-serif;
+    text-transform: uppercase;
+}
+
+.bar{
+    margin-top: 20px;
+    border: 2px solid orangered;
+    width: 420px;
+    margin-left: 100px;
+}
+
+.dev img{
+    padding-top: 100px;
+    padding-left: 230px;
+}
+
+.dev img:hover{
+    transition: 0.3s;
+    padding-top: 130px;
+}
+
+.bk_sobre{
+    width: 100%;
+    height: 720px;
+    background-color: #1a0c61;
+}
+
+.sobre{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.sobre h2{
+    font-family: 'Bebas Neue' , cursive;
+    font-size: 46px;
+    color: rgb(255, 0, 76);
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+.bar2{
+    margin-top: 20px;
+    border: 2px solid orangered;
+    width: 390px;
+    margin-left: 0px;
+}
+
+.conteudo_sobre{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.conteudo_sobre img{
+    width: 500px;
+    height: 400px;
+}
+
+.texto-sobre{
+    margin-left: 80px;
+}
+
+.texto-sobre h3{
+    width:  750px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 62px;
+    color: rgb(255, 174, 0);
+}
+
+.texto-sobre p{
+    text-align: left;
+    width: 650px;
+    text-align: left;
+    font-family: 'Tomorrow' , sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    padding-top: 20px;
+}
+
+.tag{
+    font-family: 'Courier Prime' , monospace;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+}
+
+.bk_info{
+    width: 100%;
+    height: 170px;
+    background-image: url('../images/imagem-fundo-info.jpg');
+}
+
+.info{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    margin-left: 380px;
+}
+
+.card-info h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Tomorrow' , sans-serif;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-info{
+    width: 180px;
+    margin: 50px 80px;
+    color: white;
+    align-items: center;
+
+}
+
+.card-info p{
+    width: 130px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Tomorrow' , sans-serif;
+    color: rgb(131, 55, 253);
+    padding: 10px 80px;
+    border: 1px solid rgb(94, 0, 245);
+}
+
+.bk_local{
+    width: 100%;
+    height: 300px;
+    background-color: #1a0c61;
+    margin: 0;
+}
+
+.bk_local h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Tomorrow', sans-serif;
+    letter-spacing: 2px;
+    padding-left: 460px;
+    padding-top: 40px;
+}
+
+.endereco{
+    width: 1000px;
+    height: 120px;
+    position: relative;
+    top: 12%;
+    background-color: #08002e;
+    margin: 0 auto;
+    border: 1px solid #7f09ad;
+    border-radius: 20px;
+}
+
+.bk_local img{
+    width:250px;
+    height: 250px;
+    position: absolute;
+    left: 60%;
+    top: 182%;
+    border-radius: 20px;
+}
+
+.endereco p{
+    color: rgb(139, 139, 139);
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Tomorrow' , sans-serif;
+    padding: 50px 70px;
+}
+
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: #f9003d;
+}
+
+.rodape{
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.rodape p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Tomorrow' , sans-serif;
+    padding-top: 35px;
+    padding-left: 270px;
+}
+
+.bar3{
+    margin-top: 8px;
+    border: 2px solid orangered;
+    width: 125px;
+    margin-left: 460px;
+}
