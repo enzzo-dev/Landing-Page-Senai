@@ -97,7 +97,7 @@ nav a:hover{
 
 .dev img:hover{
     transition: 0.3s;
-    padding-top: 130px;
+    padding-top: 60px;
 }
 
 .bk_sobre{
@@ -107,7 +107,7 @@ nav a:hover{
 }
 
 .sobre{
-    width: 1200px;
+    width: 90%;
     height: 100px;
     margin: 0 auto;
 }
@@ -129,12 +129,13 @@ nav a:hover{
 
 .conteudo_sobre{
     display: flex;
-    width: 700px;
+    width: 50%;
     height: 500px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .conteudo_sobre img{
+    padding-top: 50px;
     width: 500px;
     height: 400px;
 }
@@ -144,7 +145,7 @@ nav a:hover{
 }
 
 .texto-sobre h3{
-    width:  750px;
+    width:  75%;
     font-family: 'Bebas Neue', cursive;
     font-size: 62px;
     color: rgb(255, 174, 0);
@@ -226,24 +227,29 @@ nav a:hover{
     padding-top: 40px;
 }
 
+.bar3{
+    margin-top: 8px;
+    border: 2px solid orangered;
+    width: 125px;
+    margin-left: 460px;
+}
+
 .endereco{
     width: 1000px;
     height: 120px;
-    position: relative;
-    top: 12%;
     background-color: #08002e;
-    margin: 0 auto;
+    margin: 30px auto;
     border: 1px solid #7f09ad;
     border-radius: 20px;
+    display: flex;
 }
 
-.bk_local img{
+.endereco img{
+    display: flex;
     width:250px;
     height: 250px;
-    position: absolute;
-    left: 60%;
-    top: 182%;
     border-radius: 20px;
+    margin-top: -100px;
 }
 
 .endereco p{
@@ -260,24 +266,126 @@ footer{
     background-color: #f9003d;
 }
 
-.rodape{
-    width: 1000px;
-    height: 60px;
-    margin: 0 auto;
-}
-
-.rodape p{
+footer p{
     color: white;
     font-size: 18px;
     font-weight: 300;
     font-family: 'Tomorrow' , sans-serif;
     padding-top: 35px;
-    padding-left: 270px;
+    text-align: center;
 }
 
-.bar3{
-    margin-top: 8px;
-    border: 2px solid orangered;
-    width: 125px;
-    margin-left: 460px;
+
+@media screen and (max-width: 768px){
+    .topo nav{
+        justify-content: center;
+        margin-left: 80px;
+    }
+
+    .banner{
+        height: 500px;
+    }
+
+    .dev h1{
+        padding-top: 150px;
+        font-size: 40px;
+    }
+
+    .dev p{
+    font-size: 28px;
+    }
+
+    .dev img{
+        padding-top: 40px;
+    }
+
+    .sobre h2{
+        width: 300px;
+        text-align: center;
+        padding-right: 10px;
+    }
+
+    .bar2{
+        width: 300px;
+        margin-left: 60px;
+    }
+
+    .conteudo_sobre{
+        width:100%;
+        flex-direction: column;
+    }
+
+    .bk_sobre{
+        height: 1080px;
+    }
+
+    .conteudo_sobre img{
+        width: 350px;
+        height: 350px;
+        padding-top: 30px;
+        align-self: center;
+    }
+
+    .texto-sobre{
+        margin-left: 15px;
+    }
+
+    .texto-sobre h3{
+        width: 500px;
+        font-size: 48px;
+        padding: 10px 2%;
+    }
+
+    .texto-sobre p{
+        font-size: 18px;
+        width: 500px;
+    }
+
+    .texto-sobre span{
+        display: none;
+    }
+
+    .info{
+        margin-left: 0;
+    }
+
+    .card-info{
+        width: 100px;
+        margin: 40px 50px;
+    }
+
+    .card-info p{
+        width: 90px;
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+
+    .bk_local{
+        height: 500px;
+    }
+
+    .bk_local h3{
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .bar3{
+        width: 150px;
+        margin-top: -10px;
+        margin-left: 247px;
+    }
+
+    .endereco{ 
+        width: 600px;
+        margin-top: 70px;
+    }
+
+    .endereco p{
+        padding: 30px 70px;
+    }
+
+    .endereco img{
+       margin-top: -50px;
+       margin-right: 20px;
+    }
 }
