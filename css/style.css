@@ -145,7 +145,7 @@ nav a:hover{
 }
 
 .texto-sobre{
-    width:  85%;
+    width:  88%;
     margin-left: 80px;
 }
 
@@ -157,7 +157,7 @@ nav a:hover{
 
 .texto-sobre p{
     text-align: left;
-    width: 650px;
+    width: 560px;
     text-align: left;
     font-family: 'Tomorrow' , sans-serif;
     font-size: 18px;
@@ -285,7 +285,6 @@ footer p{
 @media screen and (max-width: 768px){
     .topo nav{
         justify-content: center;
-        margin-left: 80px;
     }
 
     .banner{
@@ -401,19 +400,26 @@ footer p{
 
     header img{
         display: block;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         margin-left: 400px;
         padding-top: 5px;
         cursor: pointer;
     }   
 
+    header{
+        height: 280px;
+    }
+
+    .topo{
+        height: 500px;
+    }
     .topo nav{
-        display: none;
+        display: block;
+        background-color: #000000;
     }
 
     .topo nav ul{
-        background-color: #000000;
         padding-top: 15px;
         flex-direction: column;
         align-items: center;
